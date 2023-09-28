@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { fetchUserObj, funUpdateUser } from "../redux/Action";
-import { useParams } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { funUpdateUser } from "../redux/Action";
 import { Box, Button, Modal, Typography, TextField, MenuItem } from "@mui/material"
 import CloseIcon from '@mui/icons-material/Close';
 import BorderColorIcon from '@mui/icons-material/BorderColor';
