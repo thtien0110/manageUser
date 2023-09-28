@@ -138,6 +138,7 @@ function UserList(props) {
 
     useEffect(() => {
         props.loadUser();
+        // eslint-disable-next-line
     }, [ reRender ])
 
     const onClickDeleteUser = (id) => {
