@@ -6,12 +6,6 @@ import { ToastContainer } from 'react-toastify';
 import { Provider } from 'react-redux';
 import Store from './redux/Store';
 
-const linkStyle = {
-  margin: "1rem",
-  textDecoration: "none",
-  color: 'blue'
-};
-
 function App() {
   return (
     <Provider store={ Store }>
