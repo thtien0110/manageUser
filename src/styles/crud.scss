@@ -1,0 +1,26 @@
+.container_create {
+    display: flex;
+    flex-direction: row;
+    padding: 0 !important;
+    max-height: 70vh;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.action {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+    .btnCreate,
+    .btnCancel {
+        width: 120px;
+    }
+
+    .btnCancel {
+        margin-left: 10px;
+    }
+}
